@@ -4,7 +4,17 @@
 		<title>A Basic Webpage Assignment!</title>
 		<meta charset="utf-8"><style>
 blockquote {
-  margin-left: 0;
+margin-left: 0; 
+            border-left: 4px solid #ccc; 
+            padding-left: 10px; 
+            font-style: italic; /* Optional: Make quote text italic */
+            background-color: #f9f9f9; /* Optional: Light background for quote */
+            padding: 10px; /* Optional: Padding inside the blockquote */
+
+            /* --- This is the key for word wrapping long strings --- */
+            overflow-wrap: anywhere;
+            word-wrap: break-word; /* Fallback for older browsers */
+        }
 }
 </style>
 body {
@@ -12,7 +22,7 @@ body {
             flex-direction: column;
             min-height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif; /* Added a default font */
+            font-family: Arial, sans-serif;
         }
 
 
