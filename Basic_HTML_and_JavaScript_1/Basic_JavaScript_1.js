@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page with External JS</title>
-</head>
-<body>
-    <h1>Check out this alert!</h1>
-    <p>This alert is coming from an external JavaScript file.</p>
+// This is the alert you created earlier
+alert("Hello from Basic_JavaScript_1.js!");
 
-    <script src="Basic_JavaScript_1.js"></script>
+// This is the function My_First_Function
+function My_First_Function() {
+    var myText = "Kiss me, I'm Irish!"; 
+    
+    // Get the paragraph element by its ID
+    var irishParagraph = document.getElementById("Irish");
+    
+    // Set the text content of the paragraph
+    irishParagraph.innerHTML = myText; 
 
-</body>
-</html>
+    // Add the CSS class to apply the green color
+    irishParagraph.classList.add("green-text");
+}
