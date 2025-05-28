@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Irish Greeting</title>
+    <style>
+        /* Optional: Basic styling for clarity */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        #Irish {
+            font-size: 24px;
+            margin-top: 20px;
+            font-weight: bold;
+            /* No color here, JavaScript will add it */
+        }
+        /* Define a CSS class for the green color */
+        .green-text {
+            color: green;
+        }
+    </style>
+</head>
 <body>
-	<button onclick="My_First_Function()">
-		Click me!
-	</button>
-		<p id="Irish"></p>
-<script>
-	function My_First_Function() {
-		var String = "Kiss me, I'm Irish!";
-		ver result = String.fontcolor("green"); 
-		document.getElementByID("Irish").innerHTML =
-		result;
-	}
-</script>
+
+    <button onclick="My_First_Function()">
+        Click me!
+    </button>
+    <p id="Irish"></p>
+
+    <script>
+        function My_First_Function() {
+            var myText = "Kiss me, I'm Irish!"; // Changed variable name to avoid conflict with global String object
+            
+            // Get the paragraph element by its ID
+            var irishParagraph = document.getElementById("Irish");
+            
+            // Set the text content of the paragraph
+            irishParagraph.innerHTML = myText; // Use innerHTML to place text
+
+            // --- RECOMMENDED WAY TO CHANGE COLOR WITH CSS ---
+            // Add a CSS class to apply the green color
+            irishParagraph.classList.add("green-text");
+
+            /*
+            // --- Alternative: Direct inline style (less ideal for complex styling) ---
+            irishParagraph.style.color = "green";
+            */
+        }
+    </script>
+
 </body>
 </html>
-		
