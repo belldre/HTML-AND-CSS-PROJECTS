@@ -9,6 +9,8 @@
     <h1>Check out this alert!</h1>
     <p>This alert is coming from an external JavaScript file.</p>
 
-    <script src="Hello_World.js"></script>
+    <script>
+	alert("Hello from Basic_JavaScript_1.js!");
+	</script>
 </body>
 </html>
