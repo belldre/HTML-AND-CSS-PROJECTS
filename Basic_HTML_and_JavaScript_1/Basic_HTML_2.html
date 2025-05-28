@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Irish Greeting</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page with External JS</title>
     <style>
-        /* Optional: Basic styling for clarity */
+        /* This CSS would be in your <style> section in the <head> */
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -18,41 +20,22 @@
             font-size: 24px;
             margin-top: 20px;
             font-weight: bold;
-            /* No color here, JavaScript will add it */
         }
-        /* Define a CSS class for the green color */
         .green-text {
             color: green;
         }
     </style>
 </head>
 <body>
+    <h1>Check out this alert!</h1>
+    <p>This alert is coming from an external JavaScript file.</p>
 
     <button onclick="My_First_Function()">
         Click me!
     </button>
     <p id="Irish"></p>
 
-    <script>
-        function My_First_Function() {
-            var myText = "Kiss me, I'm Irish!"; // Changed variable name to avoid conflict with global String object
-            
-            // Get the paragraph element by its ID
-            var irishParagraph = document.getElementById("Irish");
-            
-            // Set the text content of the paragraph
-            irishParagraph.innerHTML = myText; // Use innerHTML to place text
-
-            // --- RECOMMENDED WAY TO CHANGE COLOR WITH CSS ---
-            // Add a CSS class to apply the green color
-            irishParagraph.classList.add("green-text");
-
-            /*
-            // --- Alternative: Direct inline style (less ideal for complex styling) ---
-            irishParagraph.style.color = "green";
-            */
-        }
-    </script>
+    <script src="Basic_JavaScript_1.js"></script>
 
 </body>
 </html>
