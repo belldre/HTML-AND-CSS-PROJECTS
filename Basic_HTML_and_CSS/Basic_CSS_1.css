@@ -1,10 +1,7 @@
- <!DOCTYPE html>
-<html lang="en">
 
- 
- p {
- 
-	color: purple; /* Changes the text color to purple */
-	text-align: right;
-    
-	}
+
+p {
+    text-align: center; /* Centers the text within all <p> elements */
+    color: purple;   /* Sets the text color of all <p> elements to dark blue */
+    font-size: 18px;   /* Makes the text a bit larger for visibility */
+}
