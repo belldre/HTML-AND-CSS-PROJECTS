@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Table</title>
+    <style>
+        /* Optional: Basic CSS to make the table visible and readable */
+        table {
+            width: 80%; /* Make the table take up 80% of the page width */
+            border-collapse: collapse; /* Collapse borders for a cleaner look */
+            margin: 20px auto; /* Center the table and add some space */
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ccc; /* Add borders to cells */
+            padding: 8px; /* Add padding inside cells */
+            text-align: center; /* Align text center */
+        }
+        th {
+            background-color: #E6E6FA; /* Lavender background for header cells */
+            color: #333;
+        }
+        tr:nth-child(even) { /* Stripe effect for rows */
+            background-color: #5656fd;
+        }
+        tr:hover { /* Highlight row on hover */
+            background-color: #3434fe;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Favorite Sports Teams</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sport</th>
+                <th>Team Name</th>
+                <th>City</th>
+                <th>Conference</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Basketball</td>
+                <td>Lakers</td>
+                <td>Los Angeles</td>
+                <td>Western</td>
+            </tr>
+            <tr>
+                <td>Football</td>
+                <td>Eagles</td>
+                <td>Philadelphia</td>
+                <td>NFC</td>
+            </tr>
+            <tr>
+                <td>Baseball</td>
+                <td>Dodgers</td>
+                <td>Los Angeles</td>
+                <td>NL</td>
+            </tr>
+            <tr>
+                <td>Basketball</td>
+                <td>Celtics</td>
+                <td>Boston</td>
+                <td>Eastern</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
