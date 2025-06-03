@@ -1,0 +1,12 @@
+/* Class_A.css */
+
+/* This rule applies to the entire <body> of your HTML page */
+body {
+    font-style: italic;
+    text-align: center;
+}
+
+/* This rule applies to any HTML element that has class="Class_A" */
+.Class_A { /* Note the dot '.' before Class_A */
+    color: blue;
+}

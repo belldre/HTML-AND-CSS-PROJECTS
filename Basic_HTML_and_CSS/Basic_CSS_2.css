@@ -1,0 +1,10 @@
+/* Basic_CSS_2.css */
+
+p {
+    text-align: center; /* Centers the text within all <p> elements */
+    color: purple;   /* Sets the text color of all <p> elements to purple */
+    font-size: 18px;	/* Makes the text a bit larger for visibility */
+	background-color: #f4f4f4; /* A light background color for the page */
+}
+.Basic_2 { /* Note the dot '.' before Basic_2 */
+    color: orange
