@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" type="text/css" href="Basic_CSS_2.css">
-	
+<style>
+        /* Add internal styles here if you want to make the footer stick to the bottom */
+        html, body {
+            height: 100%; /* Makes sure html and body take up full height */
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex; /* Enables flexbox layout */
+            flex-direction: column; /* Stacks children vertically */
+            min-height: 100vh; /* Ensures body is at least viewport height */
+        }
+        main { /* A common practice is to wrap your main content in a <main> tag */
+            flex-grow: 1; /* This pushes the footer to the bottom */
+        }
+    </style>
 </head>
+<body>
+    <main> <h1 class="Basic_CSS_2">Isn't this interesting!</h1>
+        <h3>What to make of the CyberSecurity Bootcamp?</h3>
+        </main>
 
-	<body>
-		<h1 class="Basic_CSS_2"> Isn't this intresting!</h1>
-		<p> What to make of the CyberSecurity Bootcamp?</p>
-	
-	
-	
-	 <footer>
-    <p style="line-height: 1; margin-bottom: 0;">&copy; A Basic CSS Assignment!</p>
-    <p style="line-height: 1; margin-top: 0; margin-bottom: 0;">Contact: drebell@outlook.com</p>
-	<p style="line-height: 1; margin-top: 0; margin-bottom: 0;">Phone: 971.284.9848</p>
-  </footer>
-  
-	</body>
+    <footer>
+        <p style="line-height: 1; margin-bottom: 0;">&copy; A Basic CSS Assignment!</p>
+        <p style="line-height: 1; margin-top: 0; margin-bottom: 0;">Contact: drebell@outlook.com</p>
+        <p style="line-height: 1; margin-top: 0; margin-bottom: 0;">Phone: 971.284.9848</p>
+    </footer>
+</body>
 </html>

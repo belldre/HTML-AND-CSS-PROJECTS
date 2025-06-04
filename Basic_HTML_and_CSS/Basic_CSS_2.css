@@ -1,10 +1,21 @@
 /* Basic_CSS_2.css */
 
-p {
-    text-align: center; /* Centers the text within all <p> elements */
-    color: purple;   /* Sets the text color of all <p> elements to purple */
-    font-size: 18px;	/* Makes the text a bit larger for visibility */
-	background-color: #f4f4f4; /* A light background color for the page */
+h3 {
+    text-align: center;
+    color: purple;
+    font-size: 18px;
+    background-color: #f4f4f4;
 }
-.Basic_CSS_2 { /* Note the dot '.' before Basic_2 */
-    color: orange
+
+.Basic_CSS_2 {
+    color: orange;
+}
+
+footer {
+    text-align: center; /* This will center the text and other inline content within the footer */
+    padding: 2px; /* Add some padding for spacing */
+    border-top: 1px solid #ccc; /* Optional: Add a top border */
+	font-family: 'Hurricane', serif;
+        font-size: 22px;
+		text-shadow: 4px 4px 4px #aaa;
+}
