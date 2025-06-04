@@ -1,0 +1,45 @@
+/* CSS_Table.css */
+
+/* Basic styling for the entire table */
+table {
+    width: 80%; /* Make the table take up 80% of its container's width */
+    border-collapse: collapse; /* Collapses borders into a single line for a cleaner look */
+    margin: 20px auto; /* Centers the table horizontally on the page and adds vertical space */
+    font-family: Hurricane, serif; ; /* Sets a common, readable font */
+    background-color: #E6E6FA; /* Lavender background for the table */
+    color: #283cd7; /* Dark gray font color for the table text */
+    border: 2px solid #666; /* Solid dark gray border around the entire table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    border-radius: 8px; /* Optional: Rounds the corners of the table */
+}
+
+/* Styling for table header (th) and table data (td) cells */
+th, td {
+    border: 1px solid #ddd; /* Lighter gray border for individual cells */
+    padding: 12px 15px; /* Padding inside the cells */
+    text-align: center; /* Aligns text to the left within cells */
+}
+
+/* Styling for table header cells specifically */
+th {
+    background-color: #4CAF50; /* Green background for header cells */
+    color: white; /* White font color for header text */
+    font-weight: bold; /* Makes header text bold */
+    text-transform: uppercase; /* Optional: Uppercase header text */
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #FFFF66; /* Light cyan background on row hover */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+}
+
+/* Optional: Styling for alternating row colors (zebra stripping) */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Slightly darker background for even rows */
+}
+ 
+h1 {
+            text-align: center; /* This centers the text inside the h1 */
+            color: Grey; /* Optional: just for visibility */
+        }
