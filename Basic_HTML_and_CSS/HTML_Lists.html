@@ -14,15 +14,21 @@
             color: #333;
         }
         ul {
-            list-style-type: disc; /* Default bullet style, but you can change to 'circle', 'square', 'none' */
+            list-style-type: square; /* Default bullet style, but you can change to 'circle', 'square', 'none' */
             margin-bottom: 30px;
         }
         ol {
-            margin-bottom: 30px;
+            list-style-type: upper-roman;
+			margin-bottom: 30px;
         }
         li {
             padding: 5px 0;
         }
+		  h1 {
+            text-align: center; /* This centers the text inside the h1 */
+            color: Grey; /* Optional: just for visibility */
+        }
+		
     </style>
 </head>
 <body>
@@ -43,7 +49,7 @@
     ---
 
     <h2>Steps to Make Coffee (Ordered List - Roman Numerals)</h2>
-    <ol type="I">
+    <ol>
         <li>Boil water.</li>
         <li>Grind coffee beans.</li>
         <li>Place coffee grounds in a filter.</li>
