@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue; /* Or any other color you prefer */
+}
+
+/* You could also target the header for example */
+header {
+    background-color: #f0f0f0; /* A light grey */
+    padding: 20px;
+    text-align: center;
+}
