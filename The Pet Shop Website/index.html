@@ -1,51 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Pet Shop!</title>
-        
-      
-    </head>
-    <body>
-        <!--NAVBAR-->
-        <nav>
-        <header>
-           <div>
-            <h1>Welcome To the PetShop!</h1>
-           </div> 
-           <!--DOG IMAGE -->
-           <div>
-            <h6>Dog</h6>
-            <img src="C:\Users\drebe\Documents\GitHub\HTML-AND-CSS-PROJECTS\The Pet Shop Website\Images\dog2.jpg" alt="Picture of A Dog">
-          </div>
-          <!--CAT IMAGE -->
-          <div>
-            <h3>Cat</h3>
-            <img src="C:\Users\drebe\Documents\GitHub\HTML-AND-CSS-PROJECTS\The Pet Shop Website\Images\Bengal.jpg" alt="Picture of A Cat">
-          </div>
-          <!--FISH IMAGE -->
-          <div>
-            <h5>Fish</h5>
-            <img src="C:\Users\drebe\Documents\GitHub\HTML-AND-CSS-PROJECTS\The Pet Shop Website\Images\fish.jpg" alt="Picture of A Fish">
-          </div>
-          <!--Blockquote-->
-        <blockquote cite="https://snopride.weebly.com/">
-        At SnoPride Bengals we are dedicated to breeding. When a SnoPride kitten leaves to go to their new home we want to help make <br>
-        this transition to be as easy as possible for the new family & kitten. Our kittens have been raised in our home with our Maltese & French-bo<br>
-        that take their socialization job very seriously.
-        In the  13 years we have been breeding Bengals, we have always worked to improve our breeding program and have produced several Supreme Champions.<br>
-        Showing our offspring keeps us in touch with the Bengal breed standard and helps us continue in our breeding goals of producing the "purrfect" Bengal.
-        </blockquote>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Paw's Go To Heaven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <a href="#Bengal Cat"><li>Cats</li></a>
+            <a href="#German Sheppard"><li>Dogs</li></a>
+            <a href="#Rabbits"><li>Rabbits</li></a>
+            <a href="#Parrot"><li>Birds</li></a>
+            <a href="#Baby Python"><li>Snakes</li></a>
+            <a href="#Fish"><li>Fish</li></a>
+            <a href="#video"><li>Videos</li></a>
+
+        </ul>
 
         
-        </header>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-            </ul>
-        </nav>
-    </body>
+    </nav>
+    <!--HEADER-->
+    <header>
+        <div>
+            <h1>All Paws Go To Heaven!</h1>
+        </div>
+
+    </header>
+    <!--PET IMAGES-->
+    <section>
+        <div>
+            <h2>Lovely Pets!</h2>
+            <div id="Bengal Cat">
+                <!--CAT IMAGE-->
+                <div>
+                    <h3>Bengal Cat</h3>
+                    <img src="images/Bengal.jpg" alt="Picture of A Bengal Cat">
+                </div>
+                <!--DOG IMAGE-->
+                <div id="German Sheppard">
+                    <h3>German Sheppard</h3>
+                    <img src="images/dog2.jpg" alt="Picture of A German Sheppard">
+                </div>
+                <!--RABBIT IMAGE-->
+                <div id="Rabbits">
+                    <h3>Rabbits</h3>
+                    <img src="images/rabbits.jpg" alt="Picture of Rabbits">
+                </div>
+                <!--BIRD IMAGE-->
+                <div id="Parrot">
+                    <h3>Parrot</h3>
+                    <img src="images/bird.jpg" alt="Picture of A Parrot">
+                </div>
+                <!--SNAKE IMAGE-->
+                <div id="Baby Python">
+                    <h3>Baby Python</h3>
+                    <img src="images/snake.jpg" alt="Picture of A Snake">
+                </div>
+                <!--SNAKE IMAGE-->
+                <div id="Fish">
+                    <h3>Fish</h3>
+                    <img src="images/fish.jpg" alt="Picture of A Fish">
+                </div>
+
+            </div>
+        <div>
+    </section>
+    <!--VIDEO-->
+    <section>
+        <div id ="video">
+            <h3>Videos</h3>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
+        </div>
+    </section>
+
+
+    <!--FOOTER-->
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>All Paws Go TO Heaven! &copy;</p>
+                </td>
+                <td>
+                    <p>123 Square Ave</p>
+                    <p>Portland, OR 97204</p>
+                </td>
+                <td>
+                    <p>503.234.3966</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+
+</body>
+
 </html>
