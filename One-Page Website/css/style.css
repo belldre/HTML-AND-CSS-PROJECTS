@@ -1,0 +1,31 @@
+/*Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+a{display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    width: 100px;
+}
+/*IMAGES*/
+img{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4),
+    0 6px 20px 0 rgba(0, 0, 0, 19);
+}
+/*This targets the video on the page*/
+iframe{
+    display: table;
+    margin: 20px;
+    border-radius: 20px;
+    border:none;
+}
+
+/*Style the video*/
+#video{
+    padding-top: 2px; /*inline space to elements*/
+    padding-bottom: 50px;
+}
