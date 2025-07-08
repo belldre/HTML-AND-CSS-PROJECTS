@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* custom.css */
 
 
@@ -40,3 +41,47 @@
 .custom-footer-alt .rounded-3 {
     border-radius: 0.5rem !important; /*Rounded corners may work */
 }
+=======
+/* custom.css */
+
+
+.custom-footer-alt {
+    background-color: #f8f9fa; /* Lighter background color - Bootstrap's 'light' */
+    color: #495057; /* Dark text color for contrast */
+    padding: 50px 0;
+    font-family: "Times New Roman", sans-serif;
+}
+.custom-footer-alt h5 {
+    color: #212529; /* Darker heading color */
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.custom-footer-alt p,
+.custom-footer-alt a {
+    color: #6c757d; /* Medium text color for content */
+    text-decoration: none;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+.custom-footer-alt a:hover {
+    color: #212529; /* Darker hover color */
+}
+/* Adjusted color for nav links on light background */
+.custom-footer-alt .nav-link.p-0 {
+    color: #495057 !important; /* See on light the background */
+}
+.custom-footer-alt .nav-link.p-0:hover {
+    color: #000 !important; /* dark hover */
+}
+
+.custom-footer-alt .copyright {
+    border-top: 1px solid #dee2e6;
+    margin-top: 40px;
+    text-align: center;
+    color: #adb5bd;
+    font-size: 0.85rem;
+}
+.custom-footer-alt .rounded-3 {
+    border-radius: 0.5rem !important; /*Rounded corners may work */
+}
+>>>>>>> fd09ede0abb44d322794f78b333a824a9fe662fb
