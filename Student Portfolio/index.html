@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Dre</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="World_Video">
+                <source src="images/video/World.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Dre's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>It would be the height of irresponsibility to leave a digital backdoor wide open to our cyber-adversaries.
+                        <br>We have the opportunity and the responsibility to take action now and stay a step ahead of our adversaries.
+                    </q>
+                    <br> -Barrack Obama
+                    <br>
+                    <br> Andre Bell here. Welcome to my portfolio. You'll find details about my background and experience, 
+                    <br>  reflecting the proactive approach to cybersecurity highlighted in this quote.
+                    <br>   Thanks for stopping by! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/black-control.jpg" alt="Cyber Security Lock">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    As a Network Engineer, I'm now laser-focused on transitioning into the vital field of Cybersecurity Analysis.
+                    Backed by thirteen years of military service, I bring unparalleled dedication, a mission-focused mindset, and a foundational understanding of critical infrastructures.
+                    <br>I'm currently honing my skills as a student <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy's</a> Cyber Security Boot Camp. 
+                    <br>Here, I'm building a robust foundation in scripting languages, front & backend security, and core cybersecurity principles. 
+                    <br>Got a project in mind or want to chat about securing your systems? <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>           
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/belldre" target="_blank">Dre Bell's GitHub</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/belldre/HTML-AND-CSS-PROJECTS" target="_blank"><img src="images/github icon.jpg" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/IMG_0387.png" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
